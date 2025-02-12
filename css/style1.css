@@ -1,0 +1,68 @@
+        #map {
+            width: 45%;  /* Make the map container take up 100% width of the viewport */
+            height: 80vh;  /* Set the height to 80% of the viewport height */
+            margin: 0 auto;
+            display: block;
+        }
+
+
+
+        /* Style for the page title */
+        .page-title {
+            text-align: left; /* Centers the title horizontally */
+            font-family: Arial, Helvetica, sans-serif; /* Font family */
+            font-weight: bold; /* Make the title bold */
+            font-size: 16px; /* Title size */
+            margin-bottom: 15px; /* Add space below the title */
+        }
+
+        /* Style for the title control */
+        .title {
+            background-color: white; /* White background */
+            padding: 10px 15px; /* Matching padding for a similar appearance */
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow */
+            text-align: center; /* Center the text */
+            font-family: Arial, Helvetica, sans-serif; /* Font family */
+            font-weight: normal; /* Non-bold font */
+            font-size: 14px; /* Font size */
+            color: #000; /* Font color */
+            width: auto; /* Auto width to fit content */
+            max-width: 80%; /* Maximum width */
+            word-wrap: break-word; /* Ensure text wraps correctly */
+            position: absolute; /* Absolutely positioned */
+            top: 10px; /* 10px from the top */
+            left: 50%; /* Position from the left */
+            transform: translateX(-50%); /* Center horizontally */
+            z-index: 1000; /* Ensure title stays on top */
+        }
+
+        /* Style for the legend */
+        .legend {
+            background-color: white; /* White background */
+            border: 2px solid #ccc; /* Light gray border */
+            padding: 10px 15px; /* Matching padding for a similar appearance */
+            border-radius: 4px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow */
+            font-size: 9px;
+            position: absolute;
+            bottom: 3px;
+            left: 2px; /* Place the legend in the bottom-left corner */
+            z-index: 1000;
+        }
+
+        .legend h4 {
+            margin: 0;
+            text-align: center;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            margin-bottom: 2px;
+        }
+
+        .legend-item svg {
+            margin-right: 6px;
+        }

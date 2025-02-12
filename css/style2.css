@@ -1,0 +1,69 @@
+
+#map2 {
+    width: 600px; /* Set width of the map */
+    height: 400px; /* Set height of the map */
+    margin-top: 30px; /* Adjust the value to control the space between the maps */
+    margin-left: auto; /* Automatically adjusts the left margin */
+    margin-right: auto; /* Automatically adjusts the right margin */
+    display: block; /* Ensures the map is treated as a block element */
+}
+
+/* Title above the second map */
+.second-map-title {
+    text-align: center; /* Center the title horizontally */
+    font-family: Arial, Helvetica, sans-serif; /* Font family */
+    font-weight: normal;
+    font-size: 16px; /* Title size */
+    margin-bottom: 5px; /* Add space below the title */
+}
+
+/* Smaller text below the second map title */
+.second-map-title p {
+    font-family: Arial, Helvetica, sans-serif; /* Font family */
+    font-weight: normal; /* Non-bold font */
+    font-size: 12px; /* Smaller font size for the description */
+    margin-top: 0; /* Remove top margin */
+    color: #555; /* Slightly lighter font color for the description */
+}
+
+/* Adjusting the second map's position */
+#map2 {
+    width: 600px; /* Set width for the second map */
+    height: 400px; /* Set height for the second map */
+    margin-top: 15px; /* Adds space between the title and map */
+    margin-left: auto; /* Center the second map */
+    margin-right: auto; /* Center the second map */
+    display: block; /* Make it block-level */
+}
+
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend {
+    background: white;
+    padding: 8px 10px;
+    font: 14px Arial, sans-serif;
+    color: #555;
+    line-height: 22px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: auto;
+}
+.legend i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    opacity: 0.8;
+    border: 1px solid #ddd;
+}

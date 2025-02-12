@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Colorado Population Map</title>
+    
+        <!-- Link to external CSS file -->
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="stylesheet" href="css/style2.css">
+
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+        
+        <!-- Leaflet JavaScript -->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+        <script src="leaflet-choropleth-gh-pages/leaflet-choropleth-gh-pages/dist/choropleth.js"></script>
+        <script src="data/CO_Popdata.js"></script>
+
+    </head>
+    
+    <body>
+        <!-- Title above the first map -->
+        <div class="page-title">
+            <h3>Population of U.S. State Capitals</h3>
+        </div>
+    
+        <!-- Map container -->
+        <div id="map"></div>
+    
+        <!-- Title above the second map -->
+        <div class="page-title">
+            <h3>Colorado County Population Data</h3>
+            <p>Hover over a county</p>
+        </div>
+    
+        <!-- Second map container -->
+        <div id="map2"></div>
+    
+        <!-- Link to external JavaScript files -->
+        <script src="js/main1.js"></script>
+        <script src="js/main2.js"></script>
+    </body>
+    
+</html>
